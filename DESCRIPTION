@@ -1,0 +1,9 @@
+Package: InteractiveDiagnostics
+Type: Package
+Title: Interactive diagnostic plots with Shiny and D3
+Version: 0.1
+Date: 2014-01-04
+Author: Peyton McCullough
+Maintainer: Peyton McCullough <peyton@peytonmccullough.com>
+Description: Provides a Shiny interface for interacting with model diagnostic plots
+License: MIT
