@@ -40,3 +40,8 @@ function scatterplot() {
 
 	return chart;
 }
+
+Shiny.addCustomMessageHandler("renderDiagnosticPlot", function(message) {
+	var chart = scatterplot();
+	d3.select("#plot").datum(message).call(chart);
+});
