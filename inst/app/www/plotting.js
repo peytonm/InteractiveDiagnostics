@@ -14,9 +14,8 @@ function scatterplot() {
 
 			d3.select(this).select("svg").remove();
 
-			var svg = d3.select(this).append("svg");
-
-			svg.attr("width", width + margin.left + margin.right)
+			var svg = d3.select(this).append("svg")
+				.attr("width", width + margin.left + margin.right)
 				.attr("height", height + margin.top + margin.bottom)
 				.append("g")
 				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
